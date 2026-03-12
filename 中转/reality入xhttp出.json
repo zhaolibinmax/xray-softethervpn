@@ -69,7 +69,7 @@
         },
         "xhttpSettings": {
           "host": "xxxxx",    // 过CDN时必须填 host
-          "path": "/xxxxx,    // 不要照抄，尽可能将 path 设置得复杂一些，与服务端保持一致
+          "path": "/xxxxx",    // 不要照抄，尽可能将 path 设置得复杂一些，与服务端保持一致
           "mode": "auto"
         }
       }
@@ -77,3 +77,4 @@
   ]
 
 }
+
