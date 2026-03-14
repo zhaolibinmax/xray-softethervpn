@@ -2,7 +2,9 @@ sudo apt update
 
 sudo apt install certbot python3-certbot-nginx -y
 
-sudo certbot --nginx -d example.com -d www.example.com
+##sudo certbot --nginx -d example.com -d www.example.com
+
+sudo certbot certonly --webroot --agree-tos --key-type rsa --email you@example.com -d vpn.example.com -w /var/www/html
 
 sudo crontab -e
 
